@@ -11,3 +11,8 @@
     color: var(--text-color);
   }
 }
+
+.introText {
+  text-align: center;
+  color: var(--subtle-text-color);
+}
