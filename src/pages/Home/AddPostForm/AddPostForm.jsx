@@ -57,7 +57,7 @@ export function AddPostForm({ onAddPost }) {
             type="text"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
-            required
+            required={true}
           />
 
           <label className={styles.fieldLabel} htmlFor="post-body">
@@ -67,7 +67,7 @@ export function AddPostForm({ onAddPost }) {
             id="post-body"
             value={body}
             onChange={(e) => setBody(e.target.value)}
-            required
+            required={true}
           />
 
           <div className={styles.formActions}>
